@@ -7,9 +7,10 @@ Script Purpose:
   It performs the following actions:
     - Truncate the bronze tables before loading data.
     - Use the 'BULK INSERT' command to load data from csv files to bronze tables.
+
 Parameters:
-None.
-This stored procedure does not accept any parameters or return any values.
+	None.
+	This stored procedure does not accept any parameters or return any values.
 
 Usage example:
   EXEC bronze.load_bronze;
